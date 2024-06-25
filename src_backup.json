@@ -1,10 +1,10 @@
 {
-	"spider": "https://hub.gitmirror.com/https://raw.githubusercontent.com/hoheiya9527/TvboxSelf/main/spider_backup/fan_240624.jar",
+	"spider": "https://gh.con.sh/https://raw.githubusercontent.com/hoheiya9527/TvboxSelf/main/spider_backup/fan_240624.jar",
 	"wallpaper": "http://www.kf666888.cn/api/tvbox/img",
 	"lives": [{
 		"name": "直播",
 		"type": 0,
-		"url": "https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+		"url": "https://gh.con.sh/https://raw.githubusercontent.com/hoheiya9527/TvboxSelf/main/lives/live_parser.txt",
 		"playerType": 1,
 		"ua": "okhttp/3.12.13",
 		"epg": "https://diyp2.112114.xyz/?ch={name}&date={date}",
@@ -12,7 +12,7 @@
 	}],
 	"sites": [{
 		"key": "豆豆",
-		"name": "豆瓣推荐",
+		"name": "豆瓣推荐[备用]",
 		"type": 3,
 		"api": "csp_DouDou",
 		"searchable": 0,
@@ -50,15 +50,15 @@
 		"changeable": 1
 	},
 	{
-		"key": "荐片",
+		"key": "贱贱",
 		"name": "解析-荐片",
 		"type": 3,
 		"searchable": 1,
 		"quickSearch": 1,
 		"changeable": 1,
 		"playerType": "1",
-		"api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-		"ext": "https://gitlab.com/fantaiying/ext/-/raw/main/jp.js"
+		"api": "https://gh.con.sh/https://raw.githubusercontent.com/hoheiya9527/TvboxSelf/main/ext/js/jianpian/drpy_240513.js",
+		"ext": "https://gh.con.sh/https://raw.githubusercontent.com/hoheiya9527/TvboxSelf/main/ext/js/jianpian/jp_240513.js"
 	},
 	{
 		"key": "视觉",
